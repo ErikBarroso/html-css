@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Aumentando e diminuindo o tamanho do navegador, eu consigo ver o carro de três formas diferentes.</p>
+
+    <picture> 
+        <source media="(max-width: 750px )" srcset="Imagens/carrop.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="Imagens/carrom.jpg" type="image/jpg">
+        <img src="Imagens/carrog.jpg" alt="imagem flexível">
+        
+    </picture>
+
+    <h1>Áudio</h1>
+    <p>Adicionando áudio em HTML5</p>
+    <audio src="media/01.mp3" controls autoplay loop> </audio>
+    <br>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/01.wav" type="audio/wav">
+        <source src="media/01.mogg" type="audio/ogg">
+        <source src="media/01.mp3" type="audio/mpeg">
+        <p>Seu navegador não consegue reproduzir áudio.</p>
+    </audio>
+    
+</body>
+</html>

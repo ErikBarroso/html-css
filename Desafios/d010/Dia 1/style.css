@@ -1,0 +1,37 @@
+@charset "UTF-8"
+@font-face {
+    font-family:"teste";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+body{
+    background-color: #84E1AD;
+    font-family: teste, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+h1{
+    font-family: teste;
+    margin: 0px;
+    padding: 20px;
+}
+header{
+    color: white;
+    text-align: center;
+background-image: linear-gradient(to top, #1C653C , #227847, #34BC71); 
+}
+header > nav {
+    text-align: left;
+    padding: 13px 0px 0px 0px;
+    
+}
+nav > a {
+    text-decoration: none;
+    margin: 15px;    
+    color: white; 
+    font-size: 13px; 
+}
+h2{
+    font-family: teste;
+    color: #227847;
+}
