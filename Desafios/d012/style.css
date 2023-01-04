@@ -33,6 +33,7 @@ main > p{
     display: flex;
     align-items: center;
     line-height: 2.5em;  
+    margin-left: 50px;
 }
 
 main .semfoto{
@@ -41,18 +42,24 @@ main .semfoto{
 
 main .paragrafoscomimagens{
     color: white;
-    background-color: black;
+    ;
     
 }
 
 main #parte2{
-    background: black url(imagens/background001.jpg) right center no-repeat fixed;
-    background-size: cover;
+  
     
 }
 
 main #parte4{
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
+   
     
+}
+
+div#img1{
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    height: 480px;
 }
