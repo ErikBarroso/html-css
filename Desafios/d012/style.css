@@ -46,7 +46,7 @@ section{
     font-size: 5vh;
 }
 
-section p{
+section > p{
     padding-bottom: 2em;
 }
 section.semfoto{
