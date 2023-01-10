@@ -1,0 +1,55 @@
+@@ -0,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 20px 0x;
+}
+
+header h1{
+    padding: 40px 0px 0px 0px;
+    font-size: 3em;
+}
+header p{
+    padding: 0px 0px 20px 0x;
+}
+
+main{
+    background-color: white
+}
+
+main > p{
+    text-align: left;
+    height: 400px;
+    font-size: 20px;
+    padding: 0px;
+    
+}
+
+main .semfoto{
+    background-color: 
+}
+
+main .paragrafoscomimagens{
+    background-color: ;
+    
+}
+
+main #parte2{
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+}
+
+main #parte4{
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+}

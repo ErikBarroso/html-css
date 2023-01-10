@@ -1,0 +1,38 @@
+@charset "UTF-8"
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    min-width: 320px;
+    max-width: 500px;
+    margin: auto;
+}
+
+section{
+    background-color: rgb(158, 55, 55);
+}
+
+img{
+    width: 100%;
+}
+
+.imgesquerdo{
+    display: inline-block;
+    width: 200px;
+    height: 
+}
+
+.paragrafodireito{
+    display: inline-block;
+    text-align: justify;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.pimgdefundo{
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
