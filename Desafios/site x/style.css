@@ -4,7 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
-}
+    }
 main{
     min-width: 320px;
     max-width: 500px;
@@ -22,7 +22,7 @@ img{
 .imgesquerdo{
     display: inline-block;
     width: 200px;
-    height: 
+    height: 200px;
 }
 
 .paragrafodireito{
