@@ -22,7 +22,6 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0px 0px 0px 0x;
 }
 
 header h1{
@@ -46,7 +45,7 @@ section{
     font-size: 5vh;
 }
 
-section > p{
+section p{
     padding-bottom: 2em;
 }
 section.semfoto{
@@ -59,7 +58,6 @@ section.imagens{
     background-color: black;
     box-shadow: inset6px 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
     
-    
 }
 
 section.imagens > p{
@@ -67,7 +65,6 @@ section.imagens > p{
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1 px 0px black ;
-    
     
 }
 

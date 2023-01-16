@@ -1,63 +1,77 @@
-
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
 *{
 margin: 0px;
-padding: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font1: verdana;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+body{
+    min-height: 100vh;
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0px 0px 20px 0x;
-    padding: 0px 0px 0px 0x;
 }
 
-header h1{
-    padding: 40px 0px 0px 0px;
-    font-size: 3em;
-    font-size: 4em;
-}
-header p{
-    padding: 0px 0px 20px 0x;
-header > p{
-    margin: 0px 0px 40px 0px;
-    padding: 0px 0px 30px 0px;
-    font-size: 1.5em;
+header > h1 {
+    padding-top: 20px ;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vh;
 }
 
-main{
-@ -26,23 +28,25 @@ main{
+header >p {
+    padding-bottom: 20px;
+}
 
-main > p{
+section{
     text-align: left;
-    height: 400px;
-    font-size: 20px;
-    padding: 0px;
-    
-    height: 480px;   
-    font-size: em;
-    display: flex;
-    align-items: center;
-    line-height: 2.5em;  
+    padding-bottom: 10vh;
+    padding-top: 10vh;        
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font3);
+    font-size: 4vh;
 }
 
-main .semfoto{
-    background-color: 
-    
+section > p{
+    padding-bottom: 2em;   
+       
 }
 
-main .paragrafoscomimagens{
-    background-color: ;
+section.comfoto > p {
+    background-color: rgba(0, 0, 0, 0.452);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1 px 0px black ;    
+}
+
+.comfoto {
+    background: black;
     color: white;
-    background-color: black;
-    
 }
 
-main #parte2{
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
-    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+#foto1{
+    background: black url(imagens/971.jpg) center center no-repeat fixed ;
     background-size: cover;
-    
+}
+
+#foto2{
+    background: black url(imagens/codigos.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#foto3 {
+    background: black url(imagens/pc.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
